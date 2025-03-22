@@ -1,0 +1,19 @@
+.{
+    .name = .libpcre_zig,
+    .version = "0.1.0",
+    .dependencies = .{
+        .pcre = .{
+            .url = "https://github.com/kivikakk/pcre-8.45/archive/6a08aa250b3ca1deea5fbc5f696bb4e25ac2da90.tar.gz",
+            .hash = "1220d07bc993a0378d209d115c8937d32b625bb70d3ac9ef9975efb961670af389a3",
+        },
+    },
+    .fingerprint = 0xc2f976f309fad70e,
+    .minimum_zig_version = "0.14.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
